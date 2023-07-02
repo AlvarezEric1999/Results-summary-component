@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link href="./src/output.css" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  
+</head>
+<body class="font-Hanken-Grotesk">
+
+
+<section class="w-[375px] mx-auto bg-white shadow-lg shadow-Dark-gray-blue-alpha md:flex md:mt-16 md:w-[740px] md:h-[512px] md:rounded-3xl">
+
+  <!-- parte azul -->
+  <div class="bg-gradient-to-b from-Light-slate-blue to bg-Light-royal-blue h-[356px] pt-8 px-10 text-center rounded-b-3xl md:w-[370px] md:h-full  md:rounded-3xl md:pt-12">
+    <h2 class="mb-6 text-Light-lavender text-[18px] md:mb-12">Your Result</h2>
+    
+    <div class="bg-gradient-to-t from-Light-slate-blue to bg-Light-royal-blue rounded-full w-[140px] h-[140px] mx-auto grid place-content-center mb-6 text-[18px] md:mb-12 ">
+      <p  class="text-white text-4xl font-bold  md:text-5xl">76</p>
+      <p class="text-Light-lavender" >of 100</p>
+    </div>
+  
+      <p class="font-bold text-white text-[18px] md:text-3xl md:mb-8">Great</p>
+      <p class="text-Light-lavender">You scored higher than 65% of the people who have taken these tests.</p>
+  </div>
+
+  <!-- parte blanca -->
+
+  <div class="p-8 h-[454px] mb-4  md:w-[370px] md:py-14 md:px-10">  
+    
+    <h2 class="text-[18px] mb-6 font-bold md:text-2xl">Summary</h2>
+
+
+
+    <div class=" bg-Lightred-alpha flex place-content-between h-[54px] items-center p-3 rounded-lg mb-4 md:text-xl md:px-4">
+        <p class="flex gap-2 text-Lightred">
+          <img src="./assets/images/icon-reaction.svg">
+          <span>Reaction</span>
+        </p>
+        <p class="font-bold">80<span class=" text-Dark-gray-blue-alpha">/100</span> </p>
+    </div>
+
+    
+    <div  class=" bg-Orangey-yellow-alpha flex place-content-between h-[54px] items-center p-3 rounded-lg mb-4 md:text-xl md:px-4 ">
+      <p  class="flex gap-2 text-Orangey-yellow">
+        <img src="./assets/images/icon-memory.svg">
+        <span>Memory</span>
+      </p>
+      <p class="font-bold">92<span class=" text-Dark-gray-blue-alpha">/100</span></p>
+
+    </div>
+  
+    <div class=" bg-Greenteal-alpha flex place-content-between h-[54px] items-center p-3 rounded-lg mb-4 md:text-xl md:px-4">
+      <p class="flex gap-2 text-Greenteal">
+        <img src="./assets/images/icon-verbal.svg">
+        <span>Verbal</span>
+      </p>
+      <p class="font-bold">61<span class=" text-Dark-gray-blue-alpha">/100</span></p>
+
+    </div>
+
+    <div class=" bg-Cobaltblue-alpha flex place-content-between h-[54px] items-center p-3 rounded-lg mb-4 md:text-xl md:px-4">
+      <p class="flex gap-2 text-Cobaltblue">
+        <img src="./assets/images/icon-visual.svg">
+        <span>Visual</span>
+      </p>
+      <p class="font-bold">72  <span  class=" text-Dark-gray-blue-alpha">/100</span></p>
+
+    </div>    
+     <button class="bg-Dark-gray-blue text-white w-full h-14 rounded-3xl text-[18px] hover:bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue  md:mb-10">Continue</button>
+
+    </div>
+</section>
+
+  
+  <div class="text-center text-md mt-4 ">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank " class="text-Violet-blue">Frontend Mentor</a>. 
+    Coded by <a href="#">Eric Alvarez</a>.
+  </div>
+</body>
+</html>
